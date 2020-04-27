@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      input {
+        display: block;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="creating-a-scale-in-d3">
+        <h1>Creating a Scale in D3</h1>
+      </div>
+
+      <div id="#scales-are-very-flexible">
+        <h1>Scales are Very Flexible</h1>
+        <svg
+          id="svg"
+          width="160"
+          height="160"
+          style="border: 1px solid #ccc;"
+        ></svg>
+        <input id="y-slider" type="range" min="0" max="140" />
+        <input id="x-slider" type="range" min="0" max="4" />
+        <input id="color-slider" type="range" min="0" max="100" />
+      </div>
+
+      <div id="applying-scales">
+        <h1>Applying Scales</h1>
+        <svg
+          id="square"
+          height="160"
+          width="160"
+          style="border: 1px solid #ccc;"
+        ></svg>
+      </div>
+    </div>
+    <script src="/node_modules/d3/dist/d3.js"></script>
+    <script src="index1.js"></script>
+    <script src="index2.js"></script>
+    <script src="index3.js"></script>
+  </body>
+</html>
